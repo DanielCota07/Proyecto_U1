@@ -3,12 +3,11 @@
 Proyecto elaborado para la materia "Desarrollo basado en plataformas" como forma de calificación del primero parcial
 
 ## Equipo:
-***
 ## Integrantes:
 ***
-> Daniel Alberto Cota Ochoa ***329701***
-> Axel Dalí Gomez Morales   ***329881***
-> Ricardo Corral Sanchez    ***329606**
+- Daniel Alberto Cota Ochoa ***329701***
+- Axel Dalí Gomez Morales   ***329881***
+- Ricardo Corral Sanchez    ***329606***
 
 
 ### Prerequisites
@@ -36,6 +35,7 @@ Bienvenido a la guía rápida de metodologías tradicionales, para continuar sel
 1. *Cascada*
 2. *Espiral*
 3. *Modelo V*
+
 - [ ]  Una vez seleccionado un tema en especifico deberá de mostrar las siguientes opciones:
 
 Usted esta en la sección ${nombre de la sección}, seleccione la opción que desea utilizar.
@@ -44,6 +44,7 @@ Usted esta en la sección ${nombre de la sección}, seleccione la opción que de
 2. Buscar
 3. Eliminar información
 4. Leer base de información.
+
 - [ ]  La idea de este sub menú es almacenar información en archivos con extensión .inf (uno por cada metodología)
 - [ ]  Al agregar información se debe solicitar el identificador del concepto y la definición al guardarlo se debe de formatear y anexar al final del archivo.
 - [ ]  Al ejecutar la opción buscar deberá solicitar el elemento a buscar dentro del archivo (se debe ubicar el identificador utilizando expresiones regulares).
