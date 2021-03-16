@@ -2,7 +2,7 @@
 ***
 Proyecto elaborado para la materia "Desarrollo basado en plataformas" como forma de calificación del primero parcial
 
-## Equipo: ***Machín Learning*** :floppy_disk: :cn:
+## Equipo: ***Machín Learning*** :floppy_disk: 
 
 ## Profesor: I.S.C. Luis Antonio Ramirez Martinez
 
