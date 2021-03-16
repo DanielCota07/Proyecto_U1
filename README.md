@@ -1,25 +1,24 @@
-# Proyecto
+# Proyecto Primer Parcial
 ***
 Proyecto elaborado para la materia "Desarrollo basado en plataformas" como forma de calificación del primero parcial
 
-## Equipo:
-## Integrantes:
-***
-- Daniel Alberto Cota Ochoa ***329701***
-- Axel Dalí Gomez Morales   ***329881***
-- Ricardo Corral Sanchez    ***329606***
+## Equipo: ***Machín Learning*** :floppy_disk::cn:
 
+## Profesor: I.S.C. Luis Antonio Ramirez Martinez
 
-### Prerequisites
+### Requisitos Previos
 
-What things you need to install the software and how to install them
+Para realizar el proyeco fue necesario tener conocimientos basicos acerca de los temas visto en el parcial, los cuales son:
 
 ```
-Give examples
+    Tener una partición con Linux en tu Sistema operativo
+    Conocimientos de Linux
+    Conocimientos de Bash
+    Conocimientos de Git
+    Conocimientos de Docker
 ```
 
-
-### Requisitos del trabajo
+### Requisitos del trabajo :ballot_box_with_check:
 ***
 - [ ]  Programe en bash una aplicación que requiera un parámetro al ejecutarse -a (metodologías ágiles) y -t (metodologías       tradicionales ) desplegará el siguiente menú en la terminal:
 #### Opción -a
@@ -54,77 +53,32 @@ Usted esta en la sección ${nombre de la sección}, seleccione la opción que de
 - [ ]  Empaquete en una imagen de docker su aplicación bash, deberá al ejecutarse un contenedor lanzar inmediatamente su aplicación.
 - [ ]  Suba a GitHub, gitlab y bitbucket su proyecto, el repositorio deberá contener un archivo readme.md con la plantilla de proyectos vista en la tarea de clase y deberá contener los nombres de cada integrante del equipo, adicionalmente suba la imagen a dockerhub.
 
-### Puntos improtantes
+### Puntos improtantes :speech_balloon:
 ***
 - Todos los miembros del equipo deberán entregar un archivo de texto con las urls del repositorio en su cuenta de Moodle.
 - Si un miembro del equipo no sube el archivo en su cuenta no afectará la calificación del equipo sin embargo él recibirá cero en la calificación del proyecto.
 - Todos los miembros del equipo deben contribuir vía git a su proyecto  si algún miembro no cuenta con cambios dentro del repositorio no le contará la calificación.
 
 
-### Installing
+### Software Necesario
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Los software necesarios son los mencionados en el apartado de Requisitos Previos
 
 ```
-Give the example
+    :arrow_right:[Git](https://git-scm.com/)
+    :arrow_right:[Docker](https://www.docker.com/)
+    :arrow_right:[Linux (Ubuntu)](https://ubuntu.com/)
+```
+Aparte de lo anterior se necesitará tener una cuenta en estas tres plataformas
+```
+    :arrow_right:[Github](https://github.com/)
+    :arrow_right:[Gitlab](https://about.gitlab.com/)
+    :arrow_right:[Gitbucket](https://bitbucket.org/)
 ```
 
-And repeat
-
+## Autores
 ```
-until finished
+    Daniel Alberto Cota Ochoa ***329701***
+    Axel Dalí Gomez Morales   ***329881***
+    Ricardo Corral Sanchez    ***329606***
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
