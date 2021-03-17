@@ -78,6 +78,15 @@ Aparte de lo anterior se necesitará tener una cuenta en estas tres plataformas
 
 ## Autores
 
-- [Daniel Alberto Cota Ochoa](https://github.com/DanielCota07)  ***329701***
-- [Axel Dalí Gomez Morales](https://github.com/AxlDali)         ***329881***
-- [Ricardo Corral Sanchez](https://github.com/RicxrdoCS)        ***329606***
+- Daniel Alberto Cota Ochoa     ***329701***
+    - [Github](https://github.com/DanielCota07)
+    - [Gitlab](https://gitlab.com/daniel_cota)
+    - [Bitbucket](https://bitbucket.org/Daneitor07/)
+- Axel Dalí Gomez Morales       ***329881***
+    - [Github](https://github.com/AxlDali)
+    - [Gitlab](https://gitlab.com/axel_dali)
+    - [Bitbucket](https://bitbucket.org/AxelDali/)
+- Ricardo Corral Sanchez        ***329606***
+    - [Github](https://github.com/RicxrdoCS)
+    - [Gitlab](https://gitlab.com/a329606)
+    - [Bitbucket](https://bitbucket.org/a329606/)
