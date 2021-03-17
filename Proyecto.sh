@@ -19,9 +19,21 @@ case $1 in
 done
           ;;
         -t )
-        echo "Bienvenido a la guia rapido de Metodologia tradicionales, para continuar seleccione un tema: "
+        echo "Bienvenido a la guía rápida de metodologías tradicionales, para continuar seleccione un tema:"
+        echo "1. Cascada";
+        echo "2. Espiral";
+        echo "3. Modelo V";
+      while true; do
+        read -p "Seleccione una opcion:" opc
+         case $opc in 
+          [1]* ) echo "Cascada"; break;;
+          [2]* ) echo "Espiral"; break;;
+          [3]* ) echo "Modelo V"; break;;
+          *) echo "Seleccione una opción de 1 a 3.";;
+      esac
+  done
           ;;
         * )
         echo "No entiendo lo que me dices"
           ;;
-esac
+esac 
