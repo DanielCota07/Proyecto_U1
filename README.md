@@ -2,7 +2,7 @@
 ***
 Proyecto elaborado para la materia "Desarrollo basado en plataformas" como forma de calificación del primero parcial
 
-## Equipo: ***Machín Learning*** :floppy_disk: 
+## Equipo: ***Machín Learning*** :floppy_disk:
 
 ## Profesor: I.S.C. Luis Antonio Ramirez Martinez
 
@@ -68,7 +68,7 @@ Los software necesarios son los mencionados en el apartado de Requisitos Previos
 - :arrow_right: [Git](https://git-scm.com/)
 - :arrow_right: [Docker](https://www.docker.com/)
 - :arrow_right: [Linux (Ubuntu)](https://ubuntu.com/)
-    
+
 Aparte de lo anterior se necesitará tener una cuenta en estas tres plataformas
 
 - :arrow_right: [Github](https://github.com/)
@@ -78,7 +78,6 @@ Aparte de lo anterior se necesitará tener una cuenta en estas tres plataformas
 
 ## Autores
 
-- Daniel Alberto Cota Ochoa ***329701***
-- Axel Dalí Gomez Morales   ***329881***
-- Ricardo Corral Sanchez    ***329606***
-
+- [Daniel Alberto Cota Ochoa](https://github.com/DanielCota07)  ***329701***
+- [Axel Dalí Gomez Morales](https://github.com/AxlDali)         ***329881***
+- [Ricardo Corral Sanchez](https://github.com/RicxrdoCS)        ***329606***
