@@ -20,7 +20,7 @@ Para realizar el proyeco fue necesario tener conocimientos basicos acerca de los
 
 ### Requisitos del trabajo :ballot_box_with_check:
 ***
-- [ ]  Programe en bash una aplicación que requiera un parámetro al ejecutarse -a (metodologías ágiles) y -t (metodologías       tradicionales ) desplegará el siguiente menú en la terminal:
+- [X]  Programe en bash una aplicación que requiera un parámetro al ejecutarse -a (metodologías ágiles) y -t (metodologías       tradicionales ) desplegará el siguiente menú en la terminal:
 #### Opción -a
 Bienvenido a la guía rápida de Agile, para continuar seleccione un tema:
 
@@ -45,7 +45,7 @@ Usted esta en la sección ${nombre de la sección}, seleccione la opción que de
 4. Leer base de información.
 
 - [ ]  La idea de este sub menú es almacenar información en archivos con extensión .inf (uno por cada metodología)
-- [ ]  Al agregar información se debe solicitar el identificador del concepto y la definición al guardarlo se debe de formatear y anexar al final del archivo.
+- [X]  Al agregar información se debe solicitar el identificador del concepto y la definición al guardarlo se debe de formatear y anexar al final del archivo.
 - [ ]  Al ejecutar la opción buscar deberá solicitar el elemento a buscar dentro del archivo (se debe ubicar el identificador utilizando expresiones regulares).
 - [ ]  Al eliminar información debe solicitarnos el concepto y quitarlo del archivo.
 - [ ]  Al seleccionar leer la base de información nos debe de imprimir en pantalla el contenido del archivo.
