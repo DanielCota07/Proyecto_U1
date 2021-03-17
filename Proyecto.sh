@@ -50,4 +50,3 @@ case $1 in
     * )
     echo "No entiendo lo que me dices"
     ;;
-esac
