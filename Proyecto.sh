@@ -76,7 +76,10 @@ agregarInformacion(){
 }
 
 buscar(){
-    echo -e "\nBuscar"
+    file="$1";
+    read -p "Ingrese el concepto a buscar: " concepto
+    grep -w $concepto $1
+    read -rsp $'Presione enter para continuar.\n'
 }
 
 eliminarInformación(){
