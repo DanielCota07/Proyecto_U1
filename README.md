@@ -48,7 +48,7 @@ Usted esta en la sección ${nombre de la sección}, seleccione la opción que de
 - [X]  Al agregar información se debe solicitar el identificador del concepto y la definición al guardarlo se debe de formatear y anexar al final del archivo.
 - [ ]  Al ejecutar la opción buscar deberá solicitar el elemento a buscar dentro del archivo (se debe ubicar el identificador utilizando expresiones regulares).
 - [X]  Al eliminar información debe solicitarnos el concepto y quitarlo del archivo.
-- [ ]  Al seleccionar leer la base de información nos debe de imprimir en pantalla el contenido del archivo.
+- [X]  Al seleccionar leer la base de información nos debe de imprimir en pantalla el contenido del archivo.
 - [X]  Al terminar la ejecución de un comando debe pedirnos una siguiente opción, volver al menú anterior o terminar la ejecución.
 - [ ]  Empaquete en una imagen de docker su aplicación bash, deberá al ejecutarse un contenedor lanzar inmediatamente su aplicación.
 - [ ]  Suba a GitHub, gitlab y bitbucket su proyecto, el repositorio deberá contener un archivo readme.md con la plantilla de proyectos vista en la tarea de clase y deberá contener los nombres de cada integrante del equipo, adicionalmente suba la imagen a dockerhub.

@@ -86,10 +86,18 @@ eliminarInformación(){
 }
 
 leerBaseDeInfo(){
-    echo -e "\nLeer";
+    file="$1";
+    if [[ -f "$file" ]]
+    then
+        while IFS= read -r line
+        do
+            echo "$line";
+        done < "$file"
+    else
+        echo -e "\nNo existe información sobre este tema"
+    fi
+    read -p "Ingrese cualquier tecla para salir: "
 }
-
-
 
 init
 
@@ -127,7 +135,7 @@ while true; do
              menuInfo "Espiral" "./Archivos/Tradicionales/espiral.inf";
              break;;
       [3]* ) echo "Modelo V";
-             menuInfo "Modelo V" "./Archivos/Tradicionales/scrum.inf";
+             menuInfo "Modelo V" "./Archivos/Tradicionales/modelov.inf";
              break;;
       *) echo -e "\nSeleccione una opción de 1 a 3.";;
   esac
