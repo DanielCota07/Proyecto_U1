@@ -16,6 +16,7 @@ Para realizar el proyeco fue necesario tener conocimientos basicos acerca de los
     Conocimientos de Bash
     Conocimientos de Git
     Conocimientos de Docker
+    Tener una cuenta de DockerHub
 ```
 
 ### Requisitos del trabajo :ballot_box_with_check:
@@ -50,8 +51,8 @@ Usted esta en la sección ${nombre de la sección}, seleccione la opción que de
 - [X]  Al eliminar información debe solicitarnos el concepto y quitarlo del archivo.
 - [X]  Al seleccionar leer la base de información nos debe de imprimir en pantalla el contenido del archivo.
 - [X]  Al terminar la ejecución de un comando debe pedirnos una siguiente opción, volver al menú anterior o terminar la ejecución.
-- [ ]  Empaquete en una imagen de docker su aplicación bash, deberá al ejecutarse un contenedor lanzar inmediatamente su aplicación.
-- [ ]  Suba a GitHub, gitlab y bitbucket su proyecto, el repositorio deberá contener un archivo readme.md con la plantilla de proyectos vista en la tarea de clase y deberá contener los nombres de cada integrante del equipo, adicionalmente suba la imagen a dockerhub.
+- [X]  Empaquete en una imagen de docker su aplicación bash, deberá al ejecutarse un contenedor lanzar inmediatamente su aplicación.
+- [X]  Suba a GitHub, gitlab y bitbucket su proyecto, el repositorio deberá contener un archivo readme.md con la plantilla de proyectos vista en la tarea de clase y deberá contener los nombres de cada integrante del equipo, adicionalmente suba la imagen a dockerhub.
 
 ### Puntos improtantes :speech_balloon:
 ***
@@ -74,7 +75,13 @@ Aparte de lo anterior se necesitará tener una cuenta en estas tres plataformas
 - :arrow_right: [Github](https://github.com/)
 - :arrow_right: [Gitlab](https://about.gitlab.com/)
 - :arrow_right: [Gitbucket](https://bitbucket.org/)
+- :arrow_right: [DockerHub](https://hub.docker.com/)
 
+## Proyectos
+
+- [Github](https://github.com/DanielCota07/Proyecto_U1)
+- [Gitlab](https://gitlab.com/daniel_cota/proyecto_u1)
+- [Bitbucket](https://bitbucket.org/Daneitor07/proyecto_u1/src/master/)
 
 ## Autores
 
