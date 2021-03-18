@@ -82,6 +82,7 @@ Aparte de lo anterior se necesitará tener una cuenta en estas tres plataformas
 - [Github](https://github.com/DanielCota07/Proyecto_U1)
 - [Gitlab](https://gitlab.com/daniel_cota/proyecto_u1)
 - [Bitbucket](https://bitbucket.org/Daneitor07/proyecto_u1/src/master/)
+- [Dockerhub](https://hub.docker.com/repository/docker/danielcota/proyecto-app)
 
 ## Autores
 
