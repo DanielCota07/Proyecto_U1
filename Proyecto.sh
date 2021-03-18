@@ -83,7 +83,6 @@ buscar(){
 }
 
 eliminarInformación(){
-    echo -e "\nEliminar";
     read -p "Ingrese el concepto que desea eliminar: " concepto
     sed -i "/$concepto/, +1 d" $1
 }
