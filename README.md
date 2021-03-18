@@ -35,7 +35,7 @@ Bienvenido a la guía rápida de metodologías tradicionales, para continuar sel
 2. *Espiral*
 3. *Modelo V*
 
-- [ ]  Una vez seleccionado un tema en especifico deberá de mostrar las siguientes opciones:
+- [X]  Una vez seleccionado un tema en especifico deberá de mostrar las siguientes opciones:
 
 Usted esta en la sección ${nombre de la sección}, seleccione la opción que desea utilizar.
 
@@ -44,7 +44,7 @@ Usted esta en la sección ${nombre de la sección}, seleccione la opción que de
 3. Eliminar información
 4. Leer base de información.
 
-- [ ]  La idea de este sub menú es almacenar información en archivos con extensión .inf (uno por cada metodología)
+- [X]  La idea de este sub menú es almacenar información en archivos con extensión .inf (uno por cada metodología)
 - [X]  Al agregar información se debe solicitar el identificador del concepto y la definición al guardarlo se debe de formatear y anexar al final del archivo.
 - [ ]  Al ejecutar la opción buscar deberá solicitar el elemento a buscar dentro del archivo (se debe ubicar el identificador utilizando expresiones regulares).
 - [ ]  Al eliminar información debe solicitarnos el concepto y quitarlo del archivo.
