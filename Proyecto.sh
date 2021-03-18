@@ -32,16 +32,16 @@ menuInfo(){
         while true; do
             read -p "Ingrese la acción que desea realizar: " opInfo
             case $opInfo in
-            [1]* ) echo "Agregar información";
+            [1]* ) echo -e "\nAgregar información";
                 agregarInformacion "$2";
                 break;;
-            [2]* ) echo "Buscar";
+            [2]* ) echo -e "\nBuscar";
                 buscar "$2";
                 break;;
-            [3]* ) echo "Eliminar información";
+            [3]* ) echo -e "\nEliminar información";
                 eliminarInformación "$2";
                 break;;
-            [4]* ) echo "Leer base de información";
+            [4]* ) echo -e "\nLeer base de información";
                 leerBaseDeInfo "$2";
                 break;;
             *) echo -e "\nSeleccione una Opción de 1 a 4." ;;
@@ -63,9 +63,7 @@ menuInfo(){
 }
 
 agregarInformacion(){
-    echo -e "\nAgregar Información";
-    file="$1"
-    #echo $file
+    file="$1";
     if [ ! -f "$file" ]
     then
       touch $file
@@ -78,13 +76,14 @@ agregarInformacion(){
 buscar(){
     file="$1";
     read -p "Ingrese el concepto a buscar: " concepto
-    grep -w $concepto $1
+    grep -w $concepto $file
     read -rsp $'Presione enter para continuar.\n'
 }
 
 eliminarInformación(){
+    file="$1";
     read -p "Ingrese el concepto que desea eliminar: " concepto
-    sed -i "/$concepto/, +1 d" $1
+    sed -i "/$concepto/, +1 d" $file
 }
 
 leerBaseDeInfo(){
@@ -98,7 +97,7 @@ leerBaseDeInfo(){
     else
         echo -e "\nNo existe información sobre este tema"
     fi
-    read -p "Ingrese cualquier tecla para salir: "
+    read -rsp $'Presione enter para continuar.\n'
 }
 
 init
@@ -128,7 +127,7 @@ done
 -t )
 menuTradicionales;
 while true; do
-  read -p "Seleccione una opcion:" opc
+  read -p "Seleccione una opcion: " opc
   case $opc in
       [1]* ) echo "Cascada";
              menuInfo "Cascada" "./Archivos/Tradicionales/cascada.inf";
